@@ -1,1 +1,4 @@
-
+LINUX FILESYSTEM HIERARCHY STANDARDS
+Linux doesn't use seperate drive letters, like windows. Insteaatd, all drives are organised under one directory structure starting at /slash)
+1. BIN-This stores important executable programs
+2. BOOT-This contains all the files needed to boot the system such as linux kernel
