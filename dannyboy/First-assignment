@@ -1,0 +1,5 @@
+What is the difference between a driver controller and device driver?
+
+A device driver is a small piece of software that tells the operating system and other software how to communicate with a piece of hardware.
+
+ Device controller is a hardware unit attached to the I/O bus of the computer and works like an interface between a device and a device driver. It is an electronic component consisting of chips that is responsible for handling the incoming and outgoing signals of the CPU.
