@@ -3,5 +3,6 @@ Linux doesn't use seperate drive letters, like windows. Insteaatd, all drives ar
 1. BIN-This stores important executable programs
 2. BOOT-This contains all the files needed to boot the system such as linux kernel 
 3. DEV- This aren't really files but physical devices. Contains static files for the boot loader.  This directory holds only the files which are needed during the  boot  process. The map  installer  and  configuration  files should go to /sbin and /etc.  The operating system kernel (initrd for example) must be located in either / or /boot.
-4. /etc   Contains configuration files which are  local  to  the  machine.Some larger software packages, like X11, can have their own sub‐directories below /etc.  Site-wide configuration  files  may  be placed  here  or in /usr/etc.  Nevertheless, programs should always look for these files in /etc and you  may  have  links  for these files to /usr/etc.
+4. ETC-  Contains configuration files which are  local  to  the  machine.Some larger software packages, like X11, can have their own sub‐directories below /etc.  Site-wide configuration  files  may  be placed  here  or in /usr/etc.  Nevertheless, programs should always look for these files in /etc and you  may  have  links  for these files to /usr/etc.
+5. HOME- On  machines  with home directories for users, these are usually beneath this directory, directly or not.  The structure of  this directory depends on local administration decisions (optional).
 
