@@ -10,3 +10,7 @@ Linux doesn't use seperate drive letters, like windows. Insteaatd, all drives ar
  MNT- This directory is  a  mount  point  for  a  temporarily  mounted filesystem.  In some distributions, /mnt contains subdirectories intended to be  used  as  mount  points  for  several  temporary filesystems.
  OPT- This  directory  should  contain  add-on  packages  that contain static files.
  PROC- This is a mount point for the proc  filesystem,  which  provides information  about  running  processes  and  the  kernel.
+ ROOT- This directory is usually the home directory for the  root  user
+ SBIN- Like /bin, this directory holds commands needed to boot the system, but which are usually not executed by normal users.
+ SRV- This directory contains site-specific data  that  is  served  by this system.
+ SYS- This  is  a mount point for the sysfs filesystem, which provides information about the kernel like /proc, but better  structured, following the formalism of kobject infrastructure.
