@@ -1,0 +1,21 @@
+/Root: everything on the linux system is located under the root directory.
+/Bin: it contains the essential user binaries that must be present when the system is mounted in single-user mode.
+/Boot: it contains the file needed to boot the system.
+/cdrom:it is a temporary location for the CD-ROMs inserted in a system.
+/Dev: it contains number of special files that represent devices.
+/etc: it contains configuration files which can be edited by hand in a text editor.
+/home: it contains a home folder for each user. For example,  if your user name is Eniola, you have a home folder located at /home/Eniola.
+/lib: it contains libraries needed by essential binaries in the /bin and /sbin folder.
+/lost+found: Each Linux file system has a lost+found directory. If the file system crashes, a file system check will be performed at next boot.
+/media:it contains subdirectories where removable media devices inserted into the computer are mounted.
+/mnt: is where system administrators mounted temporary file systems while using them. For example, if you’re mounting a Windows partition to perform some file recovery operations, you might mount it at /mnt/windows.
+/opt: it contains subdirectories for optional software packages.
+/proc: it is similar to the /dev directory because it doesn’t contain standard files. It contains special files that represent system and process information.
+/root: directory is the home directory of the root user. Instead of being located at /home/root, it’s located at /root.  
+/run: it is fairly new, and gives applications a standard place to store transient files they require like sockets and process IDs.
+/sbin: it is similar to the /bin directory. It contains essential binaries that are generally intended to be run by the root user for system administration.
+/selinux: it contains special files used by SELinux. It’s similar to /proc.
+/srv: it contains “data for services provided by the system.” If you were using the Apache HTTP server to serve a website, you’d likely store your website’s files in a directory inside the /srv directory.
+/tmp: Applications store temporary files in the /tmp directory. These files are generally deleted whenever your system is restarted and may be deleted at any time by utilities such as tmpwatch.
+/usr: it contains applications and files used by users, as opposed to applications and files used by the system.
+/var: it is the writable counterpart to the /usr directory, which must be read-only in normal operation. 
